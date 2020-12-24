@@ -171,6 +171,9 @@ RUN \
 	--disable-libvpx_static \
 	--disable-libx264_static \
 	--disable-libx265_static \
+	--enable-nvenc \ 
+	--enable-zlib \
+	--enable-nonfree \
 	--enable-hdhomerun_client \
 	--enable-hdhomerun_static \
 	--enable-libav \
